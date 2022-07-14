@@ -20,6 +20,13 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
+@app.route('/<school_level>/<subject>/<lesson>', methods=['GET'])
+def reco(school_level,subject,lesson):
+    if (school_level == '') or (subject == '') or (lesson == ''):
+            return render_template('index.html', message='Please enter required fields')
+    else:
+        df = recommend(school_level, subject, lesson)
+        return df.to_json()
 
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
