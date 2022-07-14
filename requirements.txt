@@ -1,0 +1,5 @@
+gunicorn
+requests==2.24.0
+pandas
+Flask==2.0.3
+

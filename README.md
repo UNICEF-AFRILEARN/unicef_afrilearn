@@ -1,1 +1,1 @@
-# unicef_afrilearn
+# UNICEF-AI-Personalisation
