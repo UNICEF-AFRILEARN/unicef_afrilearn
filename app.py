@@ -31,7 +31,7 @@ def reco(school_level,subject,lesson):
 
 @app.route('/recommend', methods=['GET','POST'])
 def reco_system():
-    if request.method = 'GET':
+    if request.method == 'GET':
         return jsonify({"response":"Get Request Called"})
     else:
         jsonrequest = request.json
