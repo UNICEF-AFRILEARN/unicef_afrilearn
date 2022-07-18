@@ -1,3 +1,4 @@
+import json
 from flask import Flask, render_template, request
 from recommender import recommend
 
@@ -27,6 +28,15 @@ def reco(school_level,subject,lesson):
     else:
         df = recommend(school_level, subject, lesson)
         return df.to_json()
+
+@app.route('/recommend', methods=['GET'])
+def reco_system():
+    json_request = request.json
+    school_level = json_request['school_level']
+    subject = json_request['subject']
+    lesson = json_request['lesson']
+    df = recommend(school_level, subject, lesson)
+    return df.to_json()
 
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
