@@ -34,10 +34,10 @@ def reco_system():
     if request.method == 'GET':
         return jsonify({"response":"Get Request Called"})
     else:
-        jsonrequest = request.json
-        schoollevel = jsonrequest['schoollevel']
-        subject = jsonrequest['subject']
-        lesson = jsonrequest['lesson']
+        data = request.get_json()
+        schoollevel = data['schoollevel']
+        subject = data['subject']
+        lesson = data['lesson']
         df = recommend(schoollevel, subject, lesson)
         return df.to_json()
 
