@@ -39,7 +39,7 @@ def reco_system():
         subject = jsonrequest['subject']
         lesson = jsonrequest['lesson']
         df = recommend(schoollevel, subject, lesson)
-    return df.to_json()
+        return df.to_json()
 
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
