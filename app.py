@@ -31,11 +31,11 @@ def reco(school_level,subject,lesson):
 
 @app.route('/recommend', methods=['POST'])
 def reco_system():
-    json_request = request.json
-    school_level = json_request['school_level']
-    subject = json_request['subject']
-    lesson = json_request['lesson']
-    df = recommend(school_level, subject, lesson)
+    jsonrequest = request.json
+    schoollevel = jsonrequest['schoollevel']
+    subject = jsonrequest['subject']
+    lesson = jsonrequest['lesson']
+    df = recommend(schoollevel, subject, lesson)
     return df.to_json()
 
 @app.route('/submit', methods=['POST', 'GET'])
