@@ -1,5 +1,5 @@
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,jsonify
 from recommender import recommend
 
 base_html = """ 
@@ -31,11 +31,14 @@ def reco(school_level,subject,lesson):
 
 @app.route('/recommend', methods=['GET','POST'])
 def reco_system():
-    jsonrequest = request.json
-    schoollevel = jsonrequest['schoollevel']
-    subject = jsonrequest['subject']
-    lesson = jsonrequest['lesson']
-    df = recommend(schoollevel, subject, lesson)
+    if request.method = 'GET':
+        return jsonify({"response":"Get Request Called"})
+    else:
+        jsonrequest = request.json
+        schoollevel = jsonrequest['schoollevel']
+        subject = jsonrequest['subject']
+        lesson = jsonrequest['lesson']
+        df = recommend(schoollevel, subject, lesson)
     return df.to_json()
 
 @app.route('/submit', methods=['POST', 'GET'])
