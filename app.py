@@ -1,5 +1,6 @@
 import json
 from flask import Flask, render_template, request,jsonify
+from flask_cors import CORS
 from recommender import recommend
 
 base_html = """ 
@@ -15,7 +16,7 @@ base_html = """
 """
 
 app = Flask(__name__)
-
+CORS(app, resources={r"*":{"origins":"*"}})
 
 @app.route('/')
 def main():
