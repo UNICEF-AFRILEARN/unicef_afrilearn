@@ -28,7 +28,7 @@ def reco(school_level,subject,lesson):
             return render_template('index.html', message='Please enter required fields')
     else:
         df = recommend(school_level, subject, lesson)
-        return df.to_json()
+        return df.to_json(orient='records')
 
 @app.route('/recommend', methods=['GET','POST'])
 def reco_system():
@@ -40,7 +40,7 @@ def reco_system():
         subject = data['subject']
         lesson = data['lesson']
         df = recommend(schoollevel, subject, lesson)
-        return df.to_json()
+        return df.to_json(orient='records')
 
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
