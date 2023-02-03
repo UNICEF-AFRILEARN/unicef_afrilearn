@@ -1,7 +1,7 @@
 # Afrilearn-AI-Learning-Personalisation
 <p align="center">
     <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/blob/main/LICENSE.md">
-        <img alt="GitHub" src="https://img.shields.io/github/license/bookbot-kids/g2p_id.svg?color=blue">
+        <img alt="GitHub" src="https://img.shields.io/github/license/UNICEF-AFRILEARN/unicef_afrilearn?logo=GitHub&style=plastic">
     </a>
     <a href="https://bookbot-kids.github.io/g2p_id/">
         <img alt="Documentation" src="https://img.shields.io/website/http/bookbot-kids.github.io/g2p_id.svg?down_color=red&down_message=offline&up_message=online">
