@@ -9,8 +9,8 @@
     <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/issues?q=is%3Aissue+is%3Aclosed">
         <img alt="closed issues" src="https://img.shields.io/github/issues-closed-raw/UNICEF-AFRILEARN/unicef_afrilearn?color=green&logo=GitHub&style=plastic">
     </a>
-    <a href="https://github.com/bookbot-kids/g2p_id/blob/main/CODE_OF_CONDUCT.md">
-        <img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg">
+    <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/blob/main/CODE_OF_CONDUCT.md">
+        <img alt="code of conduct" src="https://https://img.shields.io/badge/contributors-code%20of%20conduct-blue">
     </a>
     <a href="https://github.com/bookbot-kids/g2p_id/actions/workflows/tests.yml">
         <img alt="Tests" src="https://github.com/bookbot-kids/g2p_id/actions/workflows/tests.yml/badge.svg">
