@@ -16,11 +16,9 @@
     <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/blob/main/CONTRIBUTING.md">
     <img alt="contributing guidelines" src="https://img.shields.io/badge/contributing-guidelines-brightgreen">
     </a>
-
     <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/graphs/commit-activity">
-    <img alt="commits" src=" https://img.shields.io/github/commit-activity/w/UNICEF-AFRILEARN/unicef_afrilearn?color=yellow&style=plastic">
+    <img alt="commits" src="https://img.shields.io/github/commit-activity/w/UNICEF-AFRILEARN/unicef_afrilearn?color=yellow&style=plastic">
     </a>
-
     <a href="https://twitter.com/afrilearn">
     <img alt="follow on twitter" src="https://img.shields.io/twitter/follow/Afrilearn?style=social">
     </a>
