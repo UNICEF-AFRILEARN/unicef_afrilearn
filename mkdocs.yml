@@ -1,0 +1,9 @@
+site_name: Afrilearn
+repo_url: https://github.com/UNICEF-AFRILEARN/unicef_afrilearn
+theme:
+  name: material
+nav:
+    - Home: index.md
+    - Project Charter: charter.md
+    - Contributing: contributing.md
+
