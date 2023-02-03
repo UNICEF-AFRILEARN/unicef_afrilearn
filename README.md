@@ -19,6 +19,9 @@
     <a href="https://twitter.com/afrilearn">
     <img alt="follow on twitter" src="https://img.shields.io/twitter/follow/Afrilearn?style=social">
     </a>
+    <a href="https://www.youtube.com/channel/UC_BnnokJom1DWipMl0oSxWA">
+    <img alt="follow on YouTube" src="https://img.shields.io/youtube/channel/views/UC_BnnokJom1DWipMl0oSxWA?style=social">
+    </a>
 </p>
 
 Some children learn best by watching videos, some by reading class notes, some by solving practice problems, and some by social collaboration. Beyond blending storytelling, social learning, and supplementary tech skills content, Afrilearn leverages artificial intelligence to give every child access to personalized learning using the unique method that works best for them. This can be solved using AI recommendation systems. The recommender system provides course recommendations based on user history and similar profiles.
