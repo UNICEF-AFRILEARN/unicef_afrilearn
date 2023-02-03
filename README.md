@@ -3,11 +3,11 @@
     <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/blob/main/LICENSE.md">
         <img alt="GitHub" src="https://img.shields.io/github/license/UNICEF-AFRILEARN/unicef_afrilearn?logo=GitHub&style=plastic">
     </a>
-    <a href="https://bookbot-kids.github.io/g2p_id/">
-        <img alt="Documentation" src="https://img.shields.io/website/http/bookbot-kids.github.io/g2p_id.svg?down_color=red&down_message=offline&up_message=online">
+    <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/issues?q=is%3Aopen+is%3Aissue">
+        <img alt="open issues" src="https://img.shields.io/github/issues-raw/UNICEF-AFRILEARN/unicef_afrilearn?color=red&logo=GitHub&style=plastic">
     </a>
-    <a href="https://github.com/bookbot-kids/g2p_id/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/bookbot-kids/g2p_id.svg">
+    <a href="https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/issues?q=is%3Aissue+is%3Aclosed">
+        <img alt="closed issues" src="https://img.shields.io/github/issues-closed-raw/UNICEF-AFRILEARN/unicef_afrilearn?color=green&logo=GitHub&style=plastic">
     </a>
     <a href="https://github.com/bookbot-kids/g2p_id/blob/main/CODE_OF_CONDUCT.md">
         <img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg">
