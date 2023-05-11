@@ -1,0 +1,7 @@
+*.pyc
+*.ini
+*.csv
+*.txt
+*.pdf
+.ipynb_checkpoints/
+*.ttf
